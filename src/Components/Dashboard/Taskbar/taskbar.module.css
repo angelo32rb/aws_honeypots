@@ -1,0 +1,30 @@
+.taskbar {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.logoContainer {
+    filter: drop-shadow(0 0 8px rgba(255, 0, 0, 0.8));
+}
+
+.logoImage {
+    height: 2em;
+    width: auto;
+}
+
+.taskbarButton {
+    color: white !important;
+    background-color: transparent !important;
+    filter: drop-shadow(0 0 12px rgba(255, 64, 0, 0.8));
+}
+
+.taskbarButton:hover {
+    transform: scale(1.05);
+}
+
+.fileExplorerButton {
+    background-color: rgba(237, 180, 180, 0.398) !important;
+    filter: drop-shadow(0 0 12px rgba(0, 100, 255, 1));
+}

@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "test",
+      "token": "test_token_admin_json_api_server",
+      "email": "admin@og.hub"
+    }
+  ]
+}

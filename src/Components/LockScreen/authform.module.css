@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=VT323&display=swap');
+
+.background {
+    background-color: #111130;
+}
+
+.bgCard {
+    background-color: #16163c;
+}
+
+.logo {
+    animation: fadeIn 2s ease-in-out;
+    user-select: none;
+    pointer-events: none;
+}
+
+.fontDesign {
+    color: white;
+    text-shadow: 0 0 10px #9d9db4;
+}
+
+.redGlow {
+    filter: drop-shadow(0 0 4px rgba(255, 0, 0, 0.6)) drop-shadow(0 0 8px rgba(255, 0, 0, 0.4)) drop-shadow(0 0 12px rgba(255, 0, 0, 0.3));
+}
+
+.vt323 {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.authInput {
+    background-color: #2c2c52;
+    border: none;
+    color: #e0e0ff;
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.authInput::placeholder {
+    color: #7f7fa0;
+    opacity: 0.7;
+}
+
+.authInput:focus {
+    background-color: #2a2a4f;
+    color: #ffffff;
+    border-color: #ff4c4c;
+    box-shadow: 0 0 10px rgba(255, 76, 76, 0.6), 0 0 15px rgba(255, 76, 76, 0.3);
+    outline: none;
+}
+
+.btnLogin {
+    background: linear-gradient(45deg, #ff1e56, #ff4c4c);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 76, 76, 0.6);
+}
+
+.btnLogin:hover {
+    background: linear-gradient(45deg, #ff4c4c, #ff1e56);
+    box-shadow: 0 0 10px rgba(255, 76, 76, 0.8), 0 0 20px rgba(255, 76, 76, 0.4);
+    transform: translateY(-2px);
+}

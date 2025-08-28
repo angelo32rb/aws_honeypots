@@ -1,0 +1,43 @@
+.appNavbar {
+    background-color: #1d1d24;
+    height: 25px;
+}
+
+
+.btnMinimize {
+    color: #ddeb11;
+    background-color: #444;
+    transition: all 0.2s ease-in-out;
+}
+
+.btnMinimize:hover {
+    background-color: #f1c40f;
+    color: #fff;
+    box-shadow: 0 0 8px #f1c40f;
+}
+
+.btnMaximize {
+    color: #3498db;
+    ;
+    background-color: #444;
+    transition: all 0.2s ease-in-out;
+}
+
+.btnMaximize:hover {
+    background-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 8px #3498db;
+}
+
+
+.btnClose {
+    color: #e74c3c;
+    background-color: #444;
+    transition: all 0.2s ease-in-out;
+}
+
+.btnClose:hover {
+    background-color: #e74c3c;
+    color: #fff;
+    box-shadow: 0 0 8px #e74c3c;
+}

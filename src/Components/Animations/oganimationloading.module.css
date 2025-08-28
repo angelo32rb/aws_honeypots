@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=VT323&display=swap');
+
+@keyframes fireGlow {
+    0% {
+        filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.6)) drop-shadow(0 0 8px rgba(255, 0, 0, 0.4)) drop-shadow(0 0 12px rgba(255, 0, 0, 0.3));
+        transform: scale(1);
+    }
+
+    50% {
+        filter: drop-shadow(0 0 20px rgba(255, 0, 0, 0.6)) drop-shadow(0 0 8px rgba(255, 0, 0, 0.4)) drop-shadow(0 0 12px rgba(255, 0, 0, 0.3));
+        transform: scale(1.04);
+    }
+
+    100% {
+        filter: drop-shadow(0 0 15px rgba(255, 0, 0, 0.6)) drop-shadow(0 0 8px rgba(255, 0, 0, 0.4)) drop-shadow(0 0 12px rgba(255, 0, 0, 0.3));
+        transform: scale(1);
+    }
+}
+
+.bgDark {
+    background-color: #111130;
+}
+
+.fireEffect {
+    animation: fireGlow 1.3s infinite ease-in-out;
+    transition: filter 0.3s ease;
+}
